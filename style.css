@@ -492,3 +492,8 @@ section {
 .full-width {
 	padding: 0;
 }
+
+.container {
+	padding-bottom: 50px;
+	padding-top: 15px;
+}
