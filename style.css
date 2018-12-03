@@ -1,5 +1,7 @@
 * {
 	box-sizing: border-box;
+
+
 }
 
 
@@ -29,10 +31,12 @@ body {
 	display: flex;
 	list-style-type: none;
 	justify-content: center;
+	align-items: center;
 	margin-top: 10px;
 }
 
 .menu ul li {
+	margin: auto;
 	text-transform: uppercase;
 	padding: 16px;
 }
@@ -45,6 +49,7 @@ body {
 	color: #fff;
 	transition: 0.2s;
 	border-bottom: 0px solid black;
+	margin: auto;
 }
 
 
@@ -74,9 +79,10 @@ body {
 
 
 .active {
-	padding-top: 10px;
+	padding: 7px;
 	border: 2px solid #fff;
 	border-radius: 3px;
+	margin: auto;
 }
 
 .currency {
@@ -475,3 +481,14 @@ body {
 	color: rgba(255,255,255,1);
 }
 
+
+
+section {
+	padding: 0;
+	margin: 0;
+}
+
+
+.full-width {
+	padding: 0;
+}
